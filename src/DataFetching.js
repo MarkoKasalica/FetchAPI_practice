@@ -6,38 +6,6 @@ const DataFetching = () => {
   const [error, setError] = useState(false);
 
     
-        // //const fetchData = () => {
-        //   setIsLoading(true)
-        //   fetch("https://jsonplaceholder.typicode.com/users")
-        //     .then(response => {
-        //     return response.json()
-        //     })
-        //     .then(data => {
-        //     setIsLoading(false)
-        //     setUsers(data)
-        //     })
-        //     .catch((err) => {
-        //         console.log(err);
-        //         setError(true);
-        //         setIsLoading(false);
-        //       });
-        //   }
-
-  // useEffect(() => {
-  //     setIsLoading(true);
-  //     axios
-  //      .get("https://jsonplaceholder.typicode.com/posts")
-  //      .then((res) => {
-  //        setIsLoading(false);
-  //        console.log(res);
-  //        setPosts(res.data);
-  //      })
-  //      .catch((err) => {
-  //        console.log(err);
-  //        setError(true);
-  //        setIsLoading(false);
-  //      });
-  //  }, []);
 
 
     useEffect(() => {
@@ -74,3 +42,36 @@ const DataFetching = () => {
 };
 
 export default DataFetching;
+
+        // //const fetchData = () => {
+        //   setIsLoading(true)
+        //   fetch("https://jsonplaceholder.typicode.com/users")
+        //     .then(response => {
+        //     return response.json()
+        //     })
+        //     .then(data => {
+        //     setIsLoading(false)
+        //     setUsers(data)
+        //     })
+        //     .catch((err) => {
+        //         console.log(err);
+        //         setError(true);
+        //         setIsLoading(false);
+        //       });
+        //   }
+
+  // useEffect(() => {
+  //     setIsLoading(true);
+  //     axios
+  //      .get("https://jsonplaceholder.typicode.com/posts")
+  //      .then((res) => {
+  //        setIsLoading(false);
+  //        console.log(res);
+  //        setPosts(res.data);
+  //      })
+  //      .catch((err) => {
+  //        console.log(err);
+  //        setError(true);
+  //        setIsLoading(false);
+  //      });
+  //  }, []);
