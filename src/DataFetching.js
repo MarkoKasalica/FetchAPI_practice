@@ -5,8 +5,6 @@ const DataFetching = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
 
-    
-
 
     useEffect(() => {
       const fetchData = () => {
